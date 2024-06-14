@@ -1,4 +1,4 @@
-##Import Statements
+#Import Statements
 Logging, Random, String, Pyperclip: These libraries are imported to handle logging errors, generate random passwords, manipulate strings, and copy credentials to the clipboard.
 
 PyQt6 Widgets: These are imported to create the graphical user interface (GUI) components such as labels, text fields, buttons, layouts, spin boxes, and message boxes.
