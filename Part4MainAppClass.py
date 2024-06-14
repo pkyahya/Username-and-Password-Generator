@@ -157,3 +157,6 @@ class MainApp(QWidget):
                 self.manager.show_message("Login Failed", "Incorrect username or password.")
         except Exception as e:
             logging.error(f"Error during login: {e}")
+
+
+            
