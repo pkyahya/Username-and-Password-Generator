@@ -22,3 +22,6 @@ class PasswordStrengthWidget(QWidget):
             else:
                 self.bars[i].setStyleSheet("background-color: lightgray; border-radius: 10px;")
         self.strength_label.setText(strength_name)
+
+
+        
