@@ -12,7 +12,7 @@ class CredentialManager:
 
     def generate_username(self, length):
         try:
-            charset = string.ascii_lowercase + string.digits
+            charset = string.ascii_lowercase + string.digit
             return ''.join(random.choices(charset, k=length))
         except Exception as e:
             logging.error(f"Error generating username: {e}")
